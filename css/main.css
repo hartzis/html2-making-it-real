@@ -12,7 +12,7 @@ table {
 	border-collapse: collapse;
 }
 table, th, td {
-	border: 1px solid black;
+	border: 1px solid rgb(153,153,153);
 }
 td {
 	padding: 10px;
@@ -33,6 +33,9 @@ pre code {
 }
 code {
 		background-color: rgb(190,190,190);
+}
+ul {
+	padding: 0;
 }
 .page {
 	background-color: rgb(240,240,240);
@@ -110,7 +113,7 @@ code {
 .unstyled-list>li:last-child {
 	padding-bottom: 0;
 }
-.all-articles {
+.all-articles, .comments-section {
 	padding: 5%;
 }
 .font-crazy {
@@ -121,4 +124,84 @@ code {
 	border: 0;
 	color: white;
 	padding: 5px 20px;
+}
+.image-container {
+	text-align: center;
+	padding: 10px;
+}
+.list-paragraph {
+	padding: 0;
+}
+.comments-section {
+	/*text-align: center;*/
+}
+.comment-box {
+	width: 100%;
+	height: 165px;
+}
+.info-item {
+	width: 100%;
+	display: table;
+	padding:3px;
+}
+.info-item-label {
+	text-align: right;
+	display: table-cell;
+	width: 25%;
+	padding-right: 5px;
+}
+.info-item-input {
+	width: 100%;
+	display: table-cell;
+}
+.input-text {
+	width: 95%;
+}
+.comment-sec {
+	padding: 15px;
+	color: rgb(140,140,140);
+}
+.fieldset-fancy {
+	border: 1px solid lightgray;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	padding-left: 5%;
+}
+.submit-button {
+	border: none;
+	background-color: red;
+	color: white;
+	width: 100%;
+	font-size: 14px;
+	padding: 8px;
+	margin: 10px;
+}
+.media-block-img {
+	float: left;
+	padding-right: 12px;
+}
+.media-block-txt {
+	overflow: hidden;
+}
+.user-name {
+	font-size: 14px;
+	margin: 0;
+}
+.date-format {
+	font-size: 14px;
+	color: lightgray;
+	padding: 0;
+}
+.user-comment-wrapper {
+	clear:both;
+	padding: 2px;
+}
+.user-comment-txt {
+	padding: 0;
+}
+.post-children .post {
+	margin-left: 50px;
+	border-left: 1px solid lightgray;
+	padding-left: 10px
 }

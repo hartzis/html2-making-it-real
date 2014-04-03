@@ -87,22 +87,143 @@ $('#myElement').click(function()){
 						<section>
 							<h4 class="section-title">Section Title</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non sem ultrices, posuere felis vitae, sodales sem. Ut eget lorem adipiscing, viverra enim in, lobortis dui. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-							<img src="http://placehold.it/350x150">
+							<div class="image-container">
+								<img src="http://placehold.it/350x150">
+							</div>
 							<ol class="ordered-list">
-								<li><p><b>Create Html:</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non sem ultrices, posuere felis vitae, sodales sem. Ut eget lorem adipiscing, viverra enim in,</p></li>
-								<li><p><b>Make Pretty with CSS:</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non sem ultrices, posuere felis vitae, sodales sem. Ut eget lorem adipiscing, viverra enim in,</p></li>
-								<li><p><b>Profit:</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non sem ultrices, posuere felis vitae, sodales sem. Ut eget lorem adipiscing, viverra enim in,</p></li>
+								<li><p class="list-paragraph"><b>Create Html:</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non sem ultrices, posuere felis vitae, sodales sem. Ut eget lorem adipiscing, viverra enim in,</p></li>
+								<li><p class="list-paragraph"><b>Make Pretty with CSS:</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non sem ultrices, posuere felis vitae, sodales sem. Ut eget lorem adipiscing, viverra enim in,</p></li>
+								<li><p class="list-paragraph"><b>Profit:</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non sem ultrices, posuere felis vitae, sodales sem. Ut eget lorem adipiscing, viverra enim in,</p></li>
 							</ol>
 						</section>
 					</article>
+
 
 					
 
 			</div>
 		</main>
 		<footer class="main-footer">
-			
-		</footer>
+			<div class="comments-section">
+				<h3 class="article-title">Comments</h3>
+					<fieldset class="fieldset-fancy">
+					    <legend class="comment-sec">User Info</legend>
+					    <div class="info-item">
+					    	<div class="info-item-label">
+					    	  <label for="email">Email</label>
+				    	  </div>
+				    	  <div class="info-item-input">
+				    	  	<input type="text" class="input-text" />
+			    	  	</div>
+		    	  	</div>
+		    	  	<div class="info-item">
+					    	<div class="info-item-label">
+					    	  <label for="email">Display Name</label>
+				    	  </div>
+				    	  <div class="info-item-input">
+				    	  	<input type="text" class="input-text" />
+			    	  	</div>
+		    	  	</div>
+		    	  	<div class="info-item">
+					    	<div class="info-item-label">
+					    	  <label for="email">Website</label>
+				    	  </div>
+				    	  <div class="info-item-input">
+				    	  	<input type="text" class="input-text" />
+			    	  	</div>
+		    	  	</div>
+ 
+					</fieldset>
+					<fieldset class="fieldset-fancy">
+					    <legend class="comment-sec">Comment</legend>
+					    <div class="image-container">
+					    <input type="textarea" id="comment" class="comment-box" name="comment" />
+					    
+					    <input type="submit" class="submit-button" />
+					    </div>
+					</fieldset>
+					<ul class="post-list">
+						<li class="post">
+							<div class="post-content">
+								<div class="media-block-img">
+						    	<img src="http://placehold.it/50x50">
+						    </div>
+					    	<div class="media-block-txt">
+						    	<h5 class="user-name">User 2</h5>
+						    	<p class="date-format">January 15, 2014</p>
+					    	</div>
+					    	<div class="user-comment-wrapper">
+					    		<p class="user-comment-txt">Cupcake ipsum dolor sit amet gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+				    		</div>
+			    		</div>
+			    		<ul class="post-children">
+			    			<li class="post">
+									<div class="post-content">
+										<div class="media-block-img">
+								    	<img src="http://placehold.it/50x50">
+								    </div>
+							    	<div class="media-block-txt">
+								    	<h5 class="user-name">User 3</h5>
+								    	<p class="date-format">January 15, 2014</p>
+							    	</div>
+							    	<div class="user-comment-wrapper">
+							    		<p class="user-comment-txt">Cupcake ipsum dolor sit amet gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+						    		</div>
+				    			</div>
+			    			</li>
+			    			<li class="post">
+									<div class="post-content">
+										<div class="media-block-img">
+								    	<img src="http://placehold.it/50x50">
+								    </div>
+							    	<div class="media-block-txt">
+								    	<h5 class="user-name">User 4</h5>
+								    	<p class="date-format">January 15, 2014</p>
+							    	</div>
+							    	<div class="user-comment-wrapper">
+							    		<p class="user-comment-txt">Cupcake ipsum dolor sit amet gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+						    		</div>
+				    			</div>
+				    			<ul class="post-children">
+					    			<li class="post">
+											<div class="post-content">
+												<div class="media-block-img">
+										    	<img src="http://placehold.it/50x50">
+										    </div>
+									    	<div class="media-block-txt">
+										    	<h5 class="user-name">User 5</h5>
+										    	<p class="date-format">January 15, 2014</p>
+									    	</div>
+									    	<div class="user-comment-wrapper">
+									    		<p class="user-comment-txt">Cupcake ipsum dolor sit amet gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+								    		</div>
+						    			</div>
+					    			</li>
+				    			</ul>
+			    			</li>
+			    				
+		    			</ul>
+	    			</li>
+		    			<li class="post">
+									<div class="post-content">
+										<div class="media-block-img">
+								    	<img src="http://placehold.it/50x50">
+								    </div>
+							    	<div class="media-block-txt">
+								    	<h5 class="user-name">User 7</h5>
+								    	<p class="date-format">January 15, 2014</p>
+							    	</div>
+							    	<div class="user-comment-wrapper">
+							    		<p class="user-comment-txt">Cupcake ipsum dolor sit amet gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+						    		</div>
+				    			</div>
+		    			</li>
+    			</ul>
+
+				    
+		    </div>
+			</footer>
+		
 	</div>
 </body>
 </html>
